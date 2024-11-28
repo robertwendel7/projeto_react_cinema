@@ -26,7 +26,10 @@ export default function Home(){
         <div>
             {filmes.map((filme) => (
                 <div key={filme.id}>
+                    <a href={`/detalhes/${filme.id}`}>
                     <h1>{filme.title}</h1>
+                    </a>
+                    
                     <img src= {`https://image.tmdb.org/t/p/w600_and_h900_bestv2${filme.backdrop_path}`}></img>
                     <h1>{filme.overview}</h1>
                     <h1>{filme.vote_average}</h1>
