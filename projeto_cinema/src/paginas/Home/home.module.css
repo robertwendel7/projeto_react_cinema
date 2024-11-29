@@ -1,3 +1,24 @@
+.aplicacao{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .titulo{
     color: blueviolet;
+    text-align: center;
 }
+.sinopse{
+    text-align: center;
+    
+}
+.detalhes{
+    text-align: center;
+}
+.imagem{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+

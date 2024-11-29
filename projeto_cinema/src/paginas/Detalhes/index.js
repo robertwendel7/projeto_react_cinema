@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import api from "../../servicos/api";
 import { useParams } from "react-router-dom";
 
+
 export default function Detalhes(){
 
     const [filmes, setFilmes] = useState([]);
