@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../servicos/api";
 import { useParams } from "react-router-dom";
+import estilo from "../Home/home.module.css";
 
 
 export default function Detalhes(){
@@ -24,15 +25,14 @@ export default function Detalhes(){
     }, [])
 
     return (
-        <div>
+        <div  className={estilo.aplicacao}>
             
                 <div key={filmes.id}>
                     
-                    <h1>{filmes.title}</h1>
-                    <img src= {`https://image.tmdb.org/t/p/w600_and_h900_bestv2${filmes.backdrop_path}`}></img>
-                    <h1>{filmes.overview}</h1>
-                    <h1>{filmes.vote_average}</h1>
-                    <h1>{filmes.release_date}</h1>
+                    <h1 className={estilo.titulo}>{filmes.title}</h1>
+                    <img className={estilo.imagem} src= {`https://image.tmdb.org/t/p/w600_and_h900_bestv2${filmes.backdrop_path}`}></img>
+                    <h1 className={estilo.sinopse}>{filmes.overview}</h1>
+                    <h1 className={estilo.detalhes}>NOTA: {filmes.vote_average}, LANÇAMENTO: {filmes.release_date}</h1>
                     
                 </div> 
             
