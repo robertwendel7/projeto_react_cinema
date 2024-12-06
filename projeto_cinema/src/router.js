@@ -8,6 +8,7 @@ export default function RouterApp() {
             <Routes>
                 <Route path= "/" element={<Home />} />
                 <Route path= "/detalhes/:id" element={<Detalhes />} />
+                
             </Routes>
         </BrowserRouter>
     );
