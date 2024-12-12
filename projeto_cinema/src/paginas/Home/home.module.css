@@ -13,7 +13,6 @@
     margin-top: 10px;
 }
 .botaoPesq{
-    
     margin: auto;
     display: flex;
     justify-content: center;
@@ -34,8 +33,7 @@
     
 }
 .sinopse{
-    text-align: center;
-    
+    text-align: center;   
 }
 .detalhes{
     text-align: center;
@@ -43,7 +41,6 @@
 .imagem{
     margin: auto;
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 

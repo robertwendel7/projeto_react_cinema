@@ -81,7 +81,7 @@ return (
                 </div>
 
                 <hr></hr>
-
+                
             </div>
         ))}
         <h1 className={estilo.titulo}>Estou na Home</h1>
